@@ -1,0 +1,39 @@
+@media (max-width: 850px) {
+  main {
+    min-height: 880px;
+  }
+  .content-container {
+    flex-direction: column;
+    gap: 64px;
+    max-width: 445px;
+    min-height: 753px;
+  }
+  .booking-content {
+    text-align: center;
+  }
+  .bg-purple {
+    left: -100px;
+    top: -550px;
+  }
+  .bg-grey {
+    right: -80px;
+    bottom: -500px;
+  }
+}
+@media (max-width: 500px) {
+  main {
+    min-height: 936px;
+  }
+  .content-container {
+    max-width: 311px;
+    min-height: 809px;
+  }
+  .bg-purple {
+    left: -250px;
+    top: -550px;
+  }
+  .bg-grey {
+    right: -260px;
+    bottom: -500px;
+  }
+}
